@@ -1,0 +1,12 @@
+.submit {
+  background: #96c7c1;
+  border: #96c7c1;
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+}
+
+.justify-content-between {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
