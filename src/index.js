@@ -16,7 +16,23 @@ function App() {
         <City />
       </div>
       <Forecast />
-      <footer>This project was coded by Lena</footer>
+      <footer>
+        <a
+          href="https://github.com/Lena0208/weather-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          This project
+        </a>{" "}
+        was coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/lena-berger-316849197/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Lena
+        </a>
+      </footer>
     </div>
   );
 }
