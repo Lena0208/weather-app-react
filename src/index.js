@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <Search />
-      <div class="row justify-content-between">
+      <div className="row justify-content-between">
         <Temperature />
         <City />
       </div>
@@ -21,6 +21,7 @@ function App() {
           href="https://github.com/Lena0208/weather-app-react"
           target="_blank"
           rel="noreferrer"
+          className="linkProject"
         >
           This project
         </a>{" "}
@@ -29,6 +30,7 @@ function App() {
           href="https://www.linkedin.com/in/lena-berger-316849197/"
           target="_blank"
           rel="noreferrer"
+          className="linkMe"
         >
           Lena
         </a>

@@ -3,8 +3,8 @@ import "./Temperature.css";
 
 export default function Temperature() {
   return (
-    <div class="col-6" id="temp">
-      <i class="fas fa-cloud-sun cloudy"></i>
+    <div className="col-6" id="temp">
+      <i className="fas fa-cloud-sun cloudy"></i>
       <span id="actualTemp">5</span>
       <sup id="celcius">
         <span>°C</span>

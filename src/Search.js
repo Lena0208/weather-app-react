@@ -4,8 +4,8 @@ import "./Search.css";
 export default function Search() {
   return (
     <form id="search">
-      <div class="row g-3">
-        <div class="col-sm-7">
+      <div className="row g-3">
+        <div className="col-sm-7">
           <input
             type="text"
             class="form-control search"
@@ -17,7 +17,7 @@ export default function Search() {
         <div id="submit" class="col-sm">
           <input
             type="submit"
-            class="form-control submit"
+            className="form-control submit"
             value="Search"
             aria-label="search"
           />
@@ -25,7 +25,7 @@ export default function Search() {
         <div id="currentBtn" class="col-sm">
           <input
             type="button"
-            class="form-control submit"
+            className="form-control submit"
             value="📍 Current"
             aria-label="current"
           />
