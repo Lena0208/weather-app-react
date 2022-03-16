@@ -4,6 +4,7 @@ import Search from "./Search";
 import Temperature from "./Temperature";
 import City from "./City";
 import Forecast from "./Forecast";
+import "bootstrap/dist/css/bootstrap.css";
 
 import "./styles.css";
 import "./index.css";
