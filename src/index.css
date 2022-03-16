@@ -12,7 +12,11 @@
     monospace;
 }
 
-footer {
+a {
   text-decoration: none;
+  color: #96c7c1;
+}
+
+a:hover {
   color: black;
 }

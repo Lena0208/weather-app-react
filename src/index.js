@@ -6,6 +6,7 @@ import City from "./City";
 import Forecast from "./Forecast";
 
 import "./styles.css";
+import "./index.css";
 
 function App() {
   return (
