@@ -5,6 +5,7 @@ import Temperature from "./Temperature";
 import City from "./City";
 import Forecast from "./Forecast";
 import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
 
 import "./styles.css";
 import "./index.css";
