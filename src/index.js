@@ -15,7 +15,7 @@ function App() {
       <Search />
       <div className="row justify-content-between">
         <Temperature />
-        <City />
+        <City defaultCity="Freiburg im Breisgau" />
       </div>
       <Forecast />
       <footer>
