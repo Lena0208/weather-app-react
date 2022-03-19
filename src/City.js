@@ -24,9 +24,8 @@ export default function City(props) {
         <br />
         <span id="blockDate">
           <span id="current-date">
-            <FormattedDate date="{weatherData.date}" />
+            <FormattedDate date={weatherData.date} />
           </span>
-          ,
           <span className="text-capitalize" id="description">
             {" "}
             {weatherData.description}
