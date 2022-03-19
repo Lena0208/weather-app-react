@@ -10,7 +10,7 @@ import "./index.css";
 function App() {
   return (
     <div className="container">
-      <Search defaultCity="Freiburg im Breisgau" />
+      <Search />
       <div className="row justify-content-between"></div>
       <Forecast />
       <footer>

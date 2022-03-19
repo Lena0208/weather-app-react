@@ -35,7 +35,9 @@ export default function WeatherInfo(props) {
           </sup>
         </div>
         <div className="col-6" id="cityDate">
-          <div id="actual-city">{weatherData.city}</div>
+          <div id="actual-city" defaultCity="Freiburg im Breisgau">
+            {weatherData.city}
+          </div>
           <br />
           <span id="blockDate">
             <span id="current-date">
