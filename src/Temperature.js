@@ -7,8 +7,6 @@ export default function Temperature() {
   const [weatherData, setWeatherData] = useState({});
 
   function handleResponse(response) {
-    console.log(response.data);
-
     setWeatherData({
       temperature: response.data.main.temp,
       icon: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",

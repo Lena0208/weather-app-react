@@ -37,3 +37,20 @@
 #wind-speed {
   color: #96c7c1;
 }
+
+#actualTemp {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-size: 60px;
+}
+
+#celcius {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+
+.icon {
+  padding-right: 7px;
+  font-size: 25px;
+}
