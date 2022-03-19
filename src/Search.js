@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Search.css";
 
-export default function Search() {
+export default function Search(props) {
+  let [setCity] = useState(props.defaultCity);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+  }
+
+  function handleCity(event) {
+    setCity(event.target.value);
+  }
+
   return (
-    <form id="search">
+    <form onSubmit={handleSubmit} id="search">
       <div className="row g-3">
         <div className="col-sm-7">
           <input
@@ -11,6 +21,8 @@ export default function Search() {
             class="form-control search"
             placeholder="Enter your City"
             aria-label="City"
+            autoFocus="on"
+            onChange={handleCity}
             id="search-city"
           />
         </div>

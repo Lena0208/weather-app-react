@@ -1,0 +1,39 @@
+#cityDate {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-size: 32px;
+  line-height: 0.8;
+  text-align: right;
+}
+
+#actualCity {
+  font-family: "Indie Flower", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  color: #96c7c1;
+  font-size: 32px;
+  line-height: 1;
+  text-align: right;
+}
+
+#blockDate {
+  font-size: 18px;
+  text-align: right;
+  line-height: 1;
+}
+
+.humidity {
+  color: #96c7c1;
+}
+
+#percent {
+  color: #96c7c1;
+}
+
+.wind {
+  color: #96c7c1;
+}
+
+#wind-speed {
+  color: #96c7c1;
+}

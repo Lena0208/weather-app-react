@@ -2,8 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Search from "./Search";
 import Temperature from "./Temperature";
-import City from "./City";
 import Forecast from "./Forecast";
+import WeatherInfo from "./WeatherInfo";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "./styles.css";
@@ -15,7 +15,7 @@ function App() {
       <Search />
       <div className="row justify-content-between">
         <Temperature />
-        <City defaultCity="Freiburg im Breisgau" />
+        <WeatherInfo defaultCity="Freiburg im Breisgau" />
       </div>
       <Forecast />
       <footer>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import "./City.css";
-import axios from "axios";
+import "./WeatherInfo.css";
 import FormattedDate from "./FormattedDate";
+import axios from "axios";
 
-export default function City(props) {
+export default function WeatherInfo(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
-
+  let [city] = useState(props.defaultCity);
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -40,7 +40,7 @@ export default function City(props) {
     );
   } else {
     let apiKey = "7837f66493d567007e68c9221e2ef6ed";
-    let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${props.defaultCity}&appid=${apiKey}&units=metric`;
+    let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiURL).then(handleResponse);
 
     return "Loading...";
